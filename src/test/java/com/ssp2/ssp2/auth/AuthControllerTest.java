@@ -61,6 +61,7 @@ class AuthControllerTest {
 
         //then
         assertEquals(HttpStatus.BAD_REQUEST, onTest.authenticate(request).getStatusCode());
+        assertEquals(true, false);
     }
 
     @Test
